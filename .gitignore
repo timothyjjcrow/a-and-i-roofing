@@ -1,5 +1,6 @@
-# Ignore images folder as requested
-images/
+# Ignore image files in the images directory but keep the directory structure
+images/*
+!images/.gitkeep
 
 # Ignore Mac system files
 .DS_Store
